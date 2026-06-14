@@ -27,9 +27,9 @@ def send_message():
 
     try:
         requests.post(
-            "http://127.0.0.1:8000/receipts",
-            json=receipt
-        )
+    "https://xeno-crm-backend-uayh.onrender.com/receipts",
+    json=receipt
+)
 
     except Exception as e:
         print(
